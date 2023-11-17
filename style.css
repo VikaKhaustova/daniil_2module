@@ -1,71 +1,68 @@
 body {
     font-family: sans-serif;
 }
-header {
-    background-color:rgb(0, 42, 139) ;
-    color:white;
-}
-header a {
-    color: grey;
-}
-h1 {
-    font-size: 30px;
-    background-color: darkblue;
-    color: white;
-    text-align:center;
-}
-footer {
-background-color: #0059ffad;
-color: grey;
-padding:2px;
-border-radius: 19px;
-}
-footer p {
-    background-color:white;
-    color:black;
-    border: 8px solid #0059ffad ;
-    padding:3px;
-    text-align:center;
-    }
-.d {
-    border: 3px solid darkblue;
-    border-radius: 19px;
-    padding: 7px;
-    text-decoration: none;
-    color: black;
-    }
-    nav a {
-        border:2px solid darkblue;
-        color:white;
-        text-decoration: none;
-        padding: 6px;
-        border-radius: 15px;
-        background-color: darkblue;
 
-    }
-    nav {
-        margin: 20px;
-        text-align:center;
-    }
-    .ah {
-        border:2px solid darkblue;
-        color:darkblue;
-        text-decoration: none;
-        padding: 6px;
-        border-radius: 15px;
-        background-color: white;
-    }
-    .aimg {
-border:3px solid grey;
-    }
-    .iimg {
-        background-color: rgb(223, 220, 245);
-        margin: 8px;
-        padding: 2px;
-    }
-    main h2 {
-        font-size: 30px;
-    background-color: darkblue;
+header{
+    background-color: purple;
+    text-align: center;
+    padding: 10px;
+}
+header a{
+    background-color: purple;
+    color:  lavenderblush;
+    padding: 5px;
+    border-radius: 15px;
+    text-decoration: none;
+    margin: 50px;   
+}
+
+header b {
     color: white;
-    text-align:center;
-    }
+}
+
+main i {
+    color: purple;
+    font-size: 39px;
+}
+
+footer{
+    background-color: blueviolet;
+    padding: 10px 10px;
+}
+
+footer p {
+    background-color: skyblue;
+    padding: 10px 10px;
+    margin: 10px 10px;
+}
+
+nav {
+    text-align: center;
+    padding: 10px;
+    background-color: lightgray;
+    border: 3px solid gray;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+nav a {
+     background-color: lightgray;
+     font-size: 15px;
+     color: white;
+     text-decoration: none;
+     border-radius: 15px;
+     padding: 5px;
+}
+
+.products {
+    background-color: white;
+    border: 3px solid purple;
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+
+h2 {
+    color: blueviolet;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
