@@ -3,66 +3,55 @@ body {
 }
 
 header{
-    background-color: purple;
+    background-color: lightseagreen;
     text-align: center;
     padding: 10px;
 }
+header b{
+    text-shadow: 1px 1px 1px blue; 
+}
+
 header a{
-    background-color: purple;
+    background-color: lightskyblue;
     color:  lavenderblush;
     padding: 5px;
-    border-radius: 15px;
-    text-decoration: none;
-    margin: 50px;   
+    border: 3px double blue;
+    border-radius: 10px;
+    text-decoration: none; 
 }
 
-header b {
-    color: white;
+h1{
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 40px;
+    background-color: aqua;
 }
 
-main i {
-    color: purple;
-    font-size: 39px;
+footer p{
+    background-color: aquamarine;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
 }
 
 footer{
-    background-color: blueviolet;
-    padding: 10px 10px;
+    background-color: azure;
 }
 
-footer p {
-    background-color: skyblue;
-    padding: 10px 10px;
-    margin: 10px 10px;
-}
-
-nav {
+nav{
+    background-color: rgb(68, 181, 185);
     text-align: center;
-    padding: 10px;
-    background-color: lightgray;
-    border: 3px solid gray;
-    border-radius: 10px;
-    text-decoration: none;
 }
 
-nav a {
-     background-color: lightgray;
-     font-size: 15px;
-     color: white;
-     text-decoration: none;
-     border-radius: 15px;
-     padding: 5px;
+nav a{
+    color: white;
 }
 
-.products {
-    background-color: white;
-    border: 3px solid purple;
-    border-radius: 10px;
-    padding: 10px 10px;
+.boom{
+    background-color: rgb(0, 183, 255);
+    border-radius: 20px;
 }
 
-h2 {
+h2{
     color: blueviolet;
-    font-size: 30px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
